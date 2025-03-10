@@ -31,7 +31,7 @@ public class RedesController {
 		else if((a.contains("nux")) || (a.contains("mac"))) {
 			
 			// comando para encontrar o IPv4 no ip addr
-			comando = "cmd.exe /c ip addr | findstr IPv4";	
+			comando = "ip addr | findstr IPv4";	
 				
 		}
 		else {
@@ -73,7 +73,7 @@ public class RedesController {
 		else if((a.contains("nux")) || (a.contains("mac"))) {
 			
 			// comando para encontrar o ping no Linux
-			comando = "cmd.exe /c ip addr | findstr IPv4";	
+			comando = "ip addr | findstr IPv4";	
 				
 		}
 		else {
